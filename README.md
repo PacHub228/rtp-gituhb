@@ -131,8 +131,3 @@ src/main/resources/
     └── uk.yml
 ```
 
----
-
-## 📜 Лицензия
-
-[MIT](LICENSE)
