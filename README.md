@@ -97,8 +97,8 @@ rtp:
 ## 🏗️ Сборка из исходников
 
 ```bash
-git clone https://github.com/your-username/rtp-github.git
-cd rtp-github
+git clone https://github.com/pachub228/rtp-gituhb.git
+cd rtp-gituhb
 mvn clean package
 ```
 
