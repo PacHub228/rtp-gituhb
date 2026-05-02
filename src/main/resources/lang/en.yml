@@ -1,0 +1,66 @@
+# ================================
+#   English language
+# ================================
+
+# General
+prefix: "§8[§bRTP§8] §r"
+no-permission: "§cYou don't have permission for this. §7(§e{permission}§7)"
+players-only: "§cThis command is for players only."
+unknown-command: "§cUnknown command. Use §e/rtp help §cfor a list of commands."
+
+# Teleportation
+teleport-success: "§aTeleported to §e{x}§a, §e{y}§a, §e{z}§a!"
+teleport-cooldown: "§cWait §e{seconds}s §cbefore teleporting again."
+teleport-no-safe: "§cCouldn't find a safe location. Please try again."
+teleport-no-world: "§cOverworld not found!"
+
+# Spawn
+spawn-teleport: "§aTeleported to spawn!"
+spawn-set: "§aSpawn coordinates updated!"
+
+# Help (/rtp help)
+help-header: "§8§m══════════════════════════════"
+help-title: "§b RTP §7— Commands"
+help-separator: "§8§m══════════════════════════════"
+help-rtp: "§e/rtp §7— Open teleport menu"
+help-rtp-help: "§e/rtp help §7— Show this list"
+help-perms-header: "§7Permissions:"
+help-perm-user: "§e rtp.user §7— Access to teleportation §7(radius ±{radius})"
+help-perm-admin: "§e rtp.admin §7— All features, no cooldown"
+
+# GUI — main menu
+gui-title: "§8» §bRTP §8«"
+gui-filler-name: " "
+
+gui-tp-button-name-ready: "§aTeleport"
+gui-tp-button-lore-ready:
+  - "§7Click to teleport"
+  - "§7to a random location!"
+  - ""
+  - "§7Radius: §e±{radius} blocks"
+  - "§7Cooldown: §e{cooldown}s"
+
+gui-tp-button-name-cooldown: "§cTeleport unavailable"
+gui-tp-button-lore-cooldown:
+  - "§7Cooldown: §e{seconds}s"
+  - ""
+  - "§7Wait before teleporting again."
+
+gui-info-name: "§eInformation"
+gui-info-lore:
+  - "§7Cooldown: §e{cooldown}s"
+  - "§7Radius: §e±{radius} blocks"
+  - "§7World: §eOverworld"
+  - ""
+  - "{status}"
+gui-info-status-ready: "§aReady to teleport!"
+gui-info-status-cooldown: "§cRemaining: §e{seconds}s"
+
+gui-help-name: "§bHelp"
+gui-help-lore:
+  - "§7/rtp §f— open menu"
+  - "§7/rtp help §f— command list"
+  - ""
+  - "§7Permissions:"
+  - "§ertp.user §f— teleportation"
+  - "§ertp.admin §f— no cooldown"

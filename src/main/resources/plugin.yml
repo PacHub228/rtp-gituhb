@@ -1,0 +1,20 @@
+name: rtp-github
+version: '${version}'
+
+main: pac.chromium.rtpGithub.RtpGithub
+api-version: '1.21'
+load: POSTWORLD
+
+commands:
+  rtp:
+    description: Случайная телепортация
+    usage: /rtp [help|spawn|setspawn]
+    permission: rtp.user
+
+permissions:
+  rtp.user:
+    description: Доступ к случайной телепортации (радиус ±5000 блоков)
+    default: op
+  rtp.admin:
+    description: Все возможности RTP, без кулдауна, доступ к setspawn
+    default: op

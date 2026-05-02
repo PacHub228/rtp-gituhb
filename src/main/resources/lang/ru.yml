@@ -1,0 +1,66 @@
+# ================================
+#   Русский язык
+# ================================
+
+# Общие
+prefix: "§8[§bRTP§8] §r"
+no-permission: "§cУ тебя нет прав для этого. §7(§e{permission}§7)"
+players-only: "§cЭта команда только для игроков."
+unknown-command: "§cНеизвестная команда. Используй §e/rtp help §cдля списка команд."
+
+# Телепортация
+teleport-success: "§aТелепортирован в §e{x}§a, §e{y}§a, §e{z}§a!"
+teleport-cooldown: "§cПодожди ещё §e{seconds} сек. §cперед следующей телепортацией."
+teleport-no-safe: "§cНе удалось найти безопасное место. Попробуй ещё раз."
+teleport-no-world: "§cОбычный мир не найден!"
+
+# Спавн
+spawn-teleport: "§aТелепортирован на спавн!"
+spawn-set: "§aКоординаты спавна обновлены!"
+
+# Помощь (/rtp help)
+help-header: "§8§m══════════════════════════════"
+help-title: "§b RTP §7— Список команд"
+help-separator: "§8§m══════════════════════════════"
+help-rtp: "§e/rtp §7— Открыть меню телепортации"
+help-rtp-help: "§e/rtp help §7— Показать этот список"
+help-perms-header: "§7Привилегии:"
+help-perm-user: "§e rtp.user §7— Доступ к телепортации §7(радиус ±{radius})"
+help-perm-admin: "§e rtp.admin §7— Все возможности, без кулдауна"
+
+# GUI — главное меню
+gui-title: "§8» §bRTP §8«"
+gui-filler-name: " "
+
+gui-tp-button-name-ready: "§aТелепортироваться"
+gui-tp-button-lore-ready:
+  - "§7Нажми, чтобы телепортироваться"
+  - "§7в случайное место!"
+  - ""
+  - "§7Радиус: §e±{radius} блоков"
+  - "§7Кулдаун: §e{cooldown} сек."
+
+gui-tp-button-name-cooldown: "§cТелепортация недоступна"
+gui-tp-button-lore-cooldown:
+  - "§7Кулдаун: §e{seconds} сек."
+  - ""
+  - "§7Подожди перед следующей ТП."
+
+gui-info-name: "§eИнформация"
+gui-info-lore:
+  - "§7Кулдаун между ТП: §e{cooldown} сек."
+  - "§7Радиус: §e±{radius} блоков"
+  - "§7Мир: §eОбычный мир"
+  - ""
+  - "{status}"
+gui-info-status-ready: "§aГотово к телепортации!"
+gui-info-status-cooldown: "§cОсталось: §e{seconds} сек."
+
+gui-help-name: "§bПомощь"
+gui-help-lore:
+  - "§7/rtp §f— открыть меню"
+  - "§7/rtp help §f— список команд"
+  - ""
+  - "§7Привилегии:"
+  - "§ertp.user §f— телепортация"
+  - "§ertp.admin §f— без кулдауна"

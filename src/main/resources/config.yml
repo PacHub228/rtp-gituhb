@@ -1,0 +1,28 @@
+# ================================
+#   RTP Plugin Configuration
+# ================================
+
+# Язык плагина / Plugin language
+# Доступные языки / Available: ru, en, pl, uk
+language: ru
+
+# Координаты спавна (используются командой /rtp spawn)
+# Spawn coordinates (used by /rtp spawn command)
+spawn:
+  world: world
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+# Настройки телепортации
+rtp:
+  # Максимальный радиус от 0,0 (в блоках)
+  max-radius: 5000
+  # Минимальный радиус от 0,0 (в блоках)
+  min-radius: 100
+  # Кулдаун между телепортациями (в секундах)
+  cooldown: 15
+  # Максимальное количество попыток найти безопасное место
+  max-attempts: 50

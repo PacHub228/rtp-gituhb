@@ -1,0 +1,66 @@
+# ================================
+#   Język polski
+# ================================
+
+# Ogólne
+prefix: "§8[§bRTP§8] §r"
+no-permission: "§cNie masz uprawnień do tego. §7(§e{permission}§7)"
+players-only: "§cTo polecenie jest tylko dla graczy."
+unknown-command: "§cNieznane polecenie. Użyj §e/rtp help §caby zobaczyć listę poleceń."
+
+# Teleportacja
+teleport-success: "§aPrzeteleportowano do §e{x}§a, §e{y}§a, §e{z}§a!"
+teleport-cooldown: "§cPoczekaj jeszcze §e{seconds}s §cprzed następną teleportacją."
+teleport-no-safe: "§cNie można znaleźć bezpiecznego miejsca. Spróbuj ponownie."
+teleport-no-world: "§cNie znaleziono zwykłego świata!"
+
+# Spawn
+spawn-teleport: "§aPrzeteleportowano na spawn!"
+spawn-set: "§aWspółrzędne spawnu zaktualizowane!"
+
+# Pomoc (/rtp help)
+help-header: "§8§m══════════════════════════════"
+help-title: "§b RTP §7— Lista poleceń"
+help-separator: "§8§m══════════════════════════════"
+help-rtp: "§e/rtp §7— Otwórz menu teleportacji"
+help-rtp-help: "§e/rtp help §7— Pokaż tę listę"
+help-perms-header: "§7Uprawnienia:"
+help-perm-user: "§e rtp.user §7— Dostęp do teleportacji §7(promień ±{radius})"
+help-perm-admin: "§e rtp.admin §7— Wszystkie funkcje, bez cooldownu"
+
+# GUI — główne menu
+gui-title: "§8» §bRTP §8«"
+gui-filler-name: " "
+
+gui-tp-button-name-ready: "§aTeleportuj się"
+gui-tp-button-lore-ready:
+  - "§7Kliknij, aby się teleportować"
+  - "§7w losowe miejsce!"
+  - ""
+  - "§7Promień: §e±{radius} bloków"
+  - "§7Cooldown: §e{cooldown}s"
+
+gui-tp-button-name-cooldown: "§cTeleportacja niedostępna"
+gui-tp-button-lore-cooldown:
+  - "§7Cooldown: §e{seconds}s"
+  - ""
+  - "§7Poczekaj przed następną teleportacją."
+
+gui-info-name: "§eInformacje"
+gui-info-lore:
+  - "§7Cooldown: §e{cooldown}s"
+  - "§7Promień: §e±{radius} bloków"
+  - "§7Świat: §eZwykły świat"
+  - ""
+  - "{status}"
+gui-info-status-ready: "§aGotowy do teleportacji!"
+gui-info-status-cooldown: "§cPozostało: §e{seconds}s"
+
+gui-help-name: "§bPomoc"
+gui-help-lore:
+  - "§7/rtp §f— otwórz menu"
+  - "§7/rtp help §f— lista poleceń"
+  - ""
+  - "§7Uprawnienia:"
+  - "§ertp.user §f— teleportacja"
+  - "§ertp.admin §f— bez cooldownu"
